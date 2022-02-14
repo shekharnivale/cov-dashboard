@@ -1,0 +1,1 @@
+DROP TABLE COV_DASHBOARD IF EXISTS;CREATE TABLE COV_DASHBOARD  (    countryRegion VARCHAR(50),    provinceState VARCHAR(50),    lastUpdate DATE,    confirmed INT,    deaths INT,    recovered INT,    active INT);

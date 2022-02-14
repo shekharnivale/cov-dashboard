@@ -1,0 +1,1 @@
+package org.mygov.covdashboard.model;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;import java.time.LocalDate;@Data@Builderpublic class DashboardQueryParam {	public String country;	public String province;	public Integer threshold;	public LocalDate date;	public LocalDate fromDate;	public LocalDate toDate;}

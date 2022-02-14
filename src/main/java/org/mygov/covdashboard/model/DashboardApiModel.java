@@ -1,0 +1,1 @@
+package org.mygov.covdashboard.model;import lombok.Data;import java.time.LocalDate;@Datapublic class DashboardApiModel {	private String countryRegion;	private String provinceState;	private LocalDate lastUpdate;	private Integer confirmedCases;	private Integer noOfDeaths;	private Integer recoveredCases;	private Integer activeCases;}

@@ -1,0 +1,1 @@
+package org.mygov.covdashboard.exception;public class CovDashBoardException extends Exception {	public CovDashBoardException(String message) {		super(message);	}}
